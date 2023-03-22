@@ -1,15 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backendDefault", "backendDefault\backendDefault.csproj", "{D5FB2CA8-5935-4741-A459-A6280F3698B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backendDefault", "backendDefault\backendDefault.csproj", "{D5FB2CA8-5935-4741-A459-A6280F3698B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backendDefault.Infra", "backendDefault.Infra\backendDefault.Infra.csproj", "{4D58ED51-4A37-4A1E-9B84-BC04BE79637E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backendDefault.Infra", "backendDefault.Infra\backendDefault.Infra.csproj", "{4D58ED51-4A37-4A1E-9B84-BC04BE79637E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7AA15D26-2992-477E-B553-42034D2F6181} = {7AA15D26-2992-477E-B553-42034D2F6181}
+		{FD2BD4B6-DCD0-423D-BA43-E4D10FF1721D} = {FD2BD4B6-DCD0-423D-BA43-E4D10FF1721D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backendDefault.Aplication", "backendDefault.Aplication\backendDefault.Aplication.csproj", "{7AA15D26-2992-477E-B553-42034D2F6181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backendDefault.Aplication", "backendDefault.Aplication\backendDefault.Aplication.csproj", "{7AA15D26-2992-477E-B553-42034D2F6181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backendDefault.Domain", "backendDefault.Domain\backendDefault.Domain.csproj", "{FD2BD4B6-DCD0-423D-BA43-E4D10FF1721D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backendDefault.Domain", "backendDefault.Domain\backendDefault.Domain.csproj", "{FD2BD4B6-DCD0-423D-BA43-E4D10FF1721D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
